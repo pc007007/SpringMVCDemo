@@ -1,0 +1,16 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="SpringMVCDemo:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <root id="archive" name="springmvcdemo.war">
+      <element id="artifact" artifact-name="SpringMVCDemo:war exploded" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="jpa-descriptors" facet="SpringMVCDemo/jpa/JPA" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="org.hibernate:hibernate-validator:5.2.2.Final" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
